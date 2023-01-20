@@ -152,6 +152,7 @@ with st.sidebar:
             section_acier = secton_retenu(section_acier, section_min_y)
             section_acier_x = section_acier / 400
             espacement_x = min((1.5 * hauteurdalle), 20)
+            espacement_y = min((1.5 * hauteurdalle), 20)
     else:
         hauteurdalle = LX/30.0
         section_min_y = 8 * hauteurdalle
